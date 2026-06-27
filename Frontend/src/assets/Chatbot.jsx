@@ -78,8 +78,12 @@ const Chatbot = () => {
     }
   };
 
+  
+
   return (
+    
     <>
+    
       {/* Floating Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}

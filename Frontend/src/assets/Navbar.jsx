@@ -3,6 +3,7 @@ import { Sparkles, Menu, X } from "lucide-react";
 import { Outlet, Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import Chatbot from "./Chatbot";
+import Footer from "./Footer";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -136,6 +137,8 @@ const Navbar = () => {
         </div>
       </div>
             <Chatbot/>
+      
+          <Footer/>
       
     </div>
   );

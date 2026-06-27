@@ -122,7 +122,6 @@ const HomePage = () => {
     <Skills/>
     <WorkExperience/>   
     <Achievements/>
-    <Footer/>
 
     </>
   );
